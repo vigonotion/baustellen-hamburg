@@ -12,13 +12,13 @@ from shutil import rmtree
 from setuptools import Command, find_packages, setup
 
 # Package meta-data.
-NAME = "baustellen-hamburg"
+NAME = "baustellen_hamburg"
 DESCRIPTION = "access building sites in hamburg, germany."
-URL = "https://github.com/vigonotion/baustellen-hamburg"
+URL = "https://github.com/vigonotion/baustellen_hamburg"
 EMAIL = "mail@vigonotion.com"
 AUTHOR = "Tom Schneider"
 REQUIRES_PYTHON = ">=3.6.0"
-VERSION = "1.0.0"
+VERSION = "1.0.1"
 
 # What packages are required for this module to be executed?
 REQUIRED = ["aiohttp", "python-dateutil", "utm", "datetime"]
